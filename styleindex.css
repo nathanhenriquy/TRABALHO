@@ -14,26 +14,31 @@ ul{
 
 li{
     display: inline-block;
+    flex-grow: 1;
     font-weight: bold;
     color: black;
     padding: 10px;
 }
 
-#right-menu {
-    margin-left: auto;
-    margin-right: auto;
+@media (max-width: 833px) {
+    
+.none{
+    display: none;
+}
+        
 }
 
 
+
 .form {   
-    display: flex;
     margin-left: auto;
 }
 
 .form input{
     margin: 15px;
     padding: 10px;
-    width: 800px;
+    width: calc(100% - 204px);
+    min-width: 200px;
     border: 2px solid #ccc;
     border-radius: 6px;
 }
@@ -44,8 +49,8 @@ li{
     border: none;
     border-radius: 4px;
     margin: 15px;
-    padding: 0px 10px;
-    margin-left: 5px;
+    width: 100px;
+    padding: 10px 10px;   
     cursor: pointer;
 }
 
