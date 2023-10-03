@@ -7,6 +7,8 @@ ul{
     align-items: center;
     margin: 0;
     display: flex;
+    background-color: rgb(171, 193, 249);
+      
     
 }
 
@@ -20,6 +22,42 @@ li{
 
 #right-menu {
     margin-left: auto;
+    margin-right: auto;
+}
+
+
+.form {   
+    display: flex;
+    margin-left: auto;
+}
+
+.form input{
+    margin: 15px;
+    padding: 10px;
+    width: 800px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+.form button {
+    background-color: #4e0894;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin: 15px;
+    padding: 0px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #7a1bbe;
+}
+
+body{
+    background-color: rgb(185, 197, 228);
+    
+
 }
 
 
