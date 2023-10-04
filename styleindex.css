@@ -3,6 +3,19 @@ body{
     margin: 0;
 }
 
+header{
+    margin: 0px;
+    padding: 10px;
+    background: linear-gradient(to bottom,rgb(86, 118, 199),rgb(100, 127, 196)) ;
+}
+.nome-loja{
+    text-align: center;
+    font-size: 28px;
+    color: rgb(0, 20, 70);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
 ul{
     align-items: center;
     margin: 0;
@@ -45,7 +58,7 @@ li{
 }
 
 .form button {
-    background-color: #370668;
+    background-color: rgb(14, 46, 126);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -56,7 +69,7 @@ li{
 }
 
 .form button:hover {
-    background-color:  #5f0cb2;
+    background-color: rgb(43, 88, 201);
 }
 
 body{
