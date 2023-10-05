@@ -6,21 +6,15 @@ body{
 header{
     margin: 0px;
     padding: 10px;
-    background: linear-gradient(to bottom,rgb(86, 118, 199),rgb(100, 127, 196)) ;
+    background: linear-gradient(to bottom,#341cb0,#4525d2) ;
 }
-.nome-loja{
-    text-align: center;
-    font-size: 28px;
-    color: rgb(0, 20, 70);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-   
-}
+
 
 ul{
     align-items: center;
     margin: 0;
     display: flex;
-    background-color: rgb(100, 127, 196);     
+    background-color:transparent;     
     
 }
 
@@ -29,9 +23,19 @@ li{
     display: inline-block;
     flex-grow: 1;
     font-weight: bold;
-    color: rgb(0, 20, 70);
+    color: #00004a;
     padding: 10px;
     margin-right: 25px;
+}
+
+.logo{
+
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 300px; 
+    height: 200px;
+    
 }
 
 @media (max-width: 833px) {
@@ -58,7 +62,7 @@ li{
 }
 
 .form button {
-    background-color: rgb(14, 46, 126);
+    background-color: #11096c;
     color: #fff;
     border: none;
     border-radius: 4px;
