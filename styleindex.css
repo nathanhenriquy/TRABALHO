@@ -118,8 +118,7 @@ body{
 
 .item img {
     max-width: 50%;
-    height: auto;
-}
+    height: 150px}
 
 .item h2 {
     color: #fff;
@@ -133,3 +132,9 @@ body{
     margin: 5px 0;
 }
 
+
+
+.footer{
+    grid-area: footer;
+    background-color: #77728a;
+}
