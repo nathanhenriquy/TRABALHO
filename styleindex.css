@@ -97,4 +97,54 @@ body{
 
 }
 
+.main{
+    grid-area: main;
+    
+}
+
+.item {
+    display: inline-block;
+    background-color: rgb(0, 72, 139);
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    min-width: 200px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item h2 {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.item p {
+    color: #fff;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+
+
+@media (max-width: 977px) {
+    .item{
+        width: calc(50% - 43px);
+    }
+    
+}
+@media (max-width: 672px) {
+    .item{
+        width: calc(100% - 40px);
+    }
+    
+}
+
 
