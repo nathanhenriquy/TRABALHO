@@ -102,16 +102,17 @@ body{
     
 }
 
-.item {
+
+.item{
+    
     display: inline-block;
     background-color: rgb(0, 72, 139);
-    padding: 20px;
-    width: calc(33.33% - 20px);
+    padding: 10px 2px;
+    width: calc(33.33% - 46px);
     min-width: 200px;
-    margin: 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
     text-align: center;
-    border-radius: 8px;
-    box-sizing: border-box;
 }
 
 .item img {
@@ -130,21 +131,4 @@ body{
     font-size: 16px;
     margin: 5px 0;
 }
-
-
-
-
-@media (max-width: 977px) {
-    .item{
-        width: calc(50% - 43px);
-    }
-    
-}
-@media (max-width: 672px) {
-    .item{
-        width: calc(100% - 40px);
-    }
-    
-}
-
 
