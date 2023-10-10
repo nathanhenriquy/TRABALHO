@@ -1,14 +1,48 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
-header{
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
+.header, .main, .footer{
+    padding: 20px;
+}
+.header{
+    grid-area: header;
+    background:  #341cb0;
+}
+
+
+.main{
+    grid-area: main;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #ddd;
+}
+
+.namepagina{
+    color: white;
     margin: 0px;
     padding: 10px;
-    background:  #341cb0 ;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 30px;
+    
+    
 }
-
 
 ul{
     align-items: center;
@@ -29,112 +63,90 @@ li{
     font-size: 17px;
 }
 
-.namepagina{
-    color: white;
-    margin: 0px;
-    padding: 10px;
-    text-align: center;
-    font-family: 'Dela Gothic One', cursive;
-    font-size: 30px;
-    
-    
-}
-
 @media (max-width: 833px) {
     
-.none{
-    display: none;
-}
+    .none{
+        display: none;
+    }
+            
+    }
+    
+    @media (max-width: 833px) {
+        ul {
+            justify-content: center; 
+        }
         
-}
-
-@media (max-width: 833px) {
-    ul {
-        justify-content: center; 
+        li.none {
+            display: none; 
+        }
+    
+        li {
+            margin-right: 10px; 
+        }
     }
     
-    li.none {
-        display: none; 
+    
+    .form {   
+        margin-left: auto;
+    }
+    
+    .form input{
+        margin: 15px;
+        padding: 10px;
+        width: calc(100% - 204px);
+        min-width: 200px;
+        border: 2px solid #ccc;
+        border-radius: 6px;
+    }
+    
+    .form button {
+        background-color: #11096c;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        margin: 15px;
+        width: 100px;
+        padding: 10px 10px;   
+        cursor: pointer;
+    }
+    
+    .form button:hover {
+        background-color: rgb(43, 88, 201);
+    }
+    
+    body{
+        background-color: rgb(255, 255, 255);
+        
+    
     }
 
-    li {
-        margin-right: 10px; 
+    /*CABEÇALHO E O CORPO DO SITE NA PARTE DE CIMA*/
+
+    .item{
+    
+        display: inline-block;
+        background-color: rgb(0, 72, 139);
+        padding: 10px 2px;
+        width: calc(33.33% - 46px);
+        min-width: 200px;
+        margin: 5px 0px;
+        border-radius: 10px;
+        text-align: center;
+        width: 285px;
     }
-}
-
-
-.form {   
-    margin-left: auto;
-}
-
-.form input{
-    margin: 15px;
-    padding: 10px;
-    width: calc(100% - 204px);
-    min-width: 200px;
-    border: 2px solid #ccc;
-    border-radius: 6px;
-}
-
-.form button {
-    background-color: #11096c;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    margin: 15px;
-    width: 100px;
-    padding: 10px 10px;   
-    cursor: pointer;
-}
-
-.form button:hover {
-    background-color: rgb(43, 88, 201);
-}
-
-body{
-    background-color: rgb(255, 255, 255);
     
-
-}
-
-.main{
-    grid-area: main;
+    .item img {
+        max-width: 50%;
+        height: 150px}
     
-}
-
-
-.item{
+    .item h2 {
+        color: #fff;
+        font-size: 20px;
+        margin: 10px 0;
+    }
     
-    display: inline-block;
-    background-color: rgb(0, 72, 139);
-    padding: 10px 2px;
-    width: calc(33.33% - 46px);
-    min-width: 200px;
-    margin: 5px 0px;
-    border-radius: 10px;
-    text-align: center;
-    width: 285px;
-}
-
-.item img {
-    max-width: 50%;
-    height: 150px}
-
-.item h2 {
-    color: #fff;
-    font-size: 20px;
-    margin: 10px 0;
-}
-
-.item p {
-    color: #fff;
-    font-size: 16px;
-    margin: 5px 0;
-}
-
-
-
-.footer{
-    grid-area: footer;
-    background-color: #77728a;
-}
+    .item p {
+        color: #fff;
+        font-size: 16px;
+        margin: 5px 0;
+    }
