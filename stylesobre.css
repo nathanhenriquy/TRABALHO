@@ -200,5 +200,7 @@ h3{
     height: 50px; 
     margin: 0 auto; 
     color: #fff; 
-    text-align: center; 
+    text-align: center;  
+    display:inline;
+    justify-content: center;
 }
