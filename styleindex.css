@@ -13,7 +13,7 @@ body{
     "main main main"
     "footer footer footer";
 }
-.header, .main, .footer{
+.header, .main{
     padding: 20px;
 }
 .header{
@@ -29,9 +29,17 @@ body{
 }
 
 .footer{
+    display: flex;
     grid-area: footer;
     background-color: #ddd;
+    color: white;
 }
+
+footer ul{
+    width: 25%;
+}
+
+
 
 .namepagina{
     color: white;
