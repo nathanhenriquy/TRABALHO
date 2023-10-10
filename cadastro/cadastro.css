@@ -1,0 +1,73 @@
+body
+{
+    background-color: rgb(139, 189, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 50%;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+h1 {
+    color: rgb(18, 18, 18);
+    font-size: 32px;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+input {
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 12px;
+    border: 2px solid #0000003b;
+    border-radius: 7px;
+    margin: 7px;
+}
+
+#nome, #email, #telefone{
+    flex-basis: 600px;
+}
+
+#senha, #confirmarSenha{            
+    flex-basis: 250px;
+}
+
+button {
+    flex-grow: 1;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    flex-basis: 100px;
+    border-radius: 7px;
+}
+
+button[type="reset"]{            
+    background-color: #f5b049;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button[type="reset"]:hover{            
+    background-color: #ac7727;
+}
