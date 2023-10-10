@@ -213,7 +213,7 @@ h3{
     background-color:#341cb0;
     width: 550px; 
     height: 200px; 
-    margin: 0 auto;  
+    margin: auto; 
     color: #fff; 
     text-align: justify;
 }
