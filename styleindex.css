@@ -163,6 +163,13 @@ header li{
 
 /*==== FOOTER CORRETO DAQUI PARA BAIXO ====*/
 
+footer .direitos{
+    background-color: #ddd;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
 .footer-container {
     font-family: 'Poppins', sans-serif; 
     background-color: #ddd;
