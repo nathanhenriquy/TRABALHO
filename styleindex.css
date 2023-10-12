@@ -149,7 +149,11 @@ header li{
 
 
 
-
+/*Propagando Horizontal*/
+.propaganda-hori{
+    text-align: center;
+    max-width: 100%;
+}
 
 
 
