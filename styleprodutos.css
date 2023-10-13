@@ -79,6 +79,84 @@ header li{
 
 
 
+/* ====== CATEGORIAS E PRODUTOS====== */
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 20px;
+}
+
+.categories {
+    flex: 1;
+    background-color: #f2f2f2;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.categories h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories li {
+    margin: 5px;
+    font-weight: bold;
+    
+}
+
+.main{
+    grid-area: main;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+.main h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.produtos{
+    text-align: center;
+}
+
+
+.item{    
+    display: inline-block;
+    background-color: rgb(225, 237, 248);
+    padding: 10px 2px;
+    width: calc(33.33% - 46px);
+    min-width: 200px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.item img {
+    max-width: 50%;
+    height: 100px}
+
+.item h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #000029;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.item p {
+    color: #000029;
+    font-size: 16px;
+    margin: 5px 0;
+}
 
 
 
