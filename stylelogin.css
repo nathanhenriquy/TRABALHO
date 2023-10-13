@@ -65,23 +65,23 @@ header li{
     border: none;
     border-radius: 4px;
     margin: 15px;
-    width: 100px;
+    width: 50px;
     padding: 10px 10px;   
     cursor: pointer;
-}
-
-#cadastrar {
-    width: 750px;
-    height: 45px;
 }
 
 .form button:hover {
     background-color:  #007bff;
 }
 
-#botaologin {
+#botaoentrar {
+    padding: 14px;
+    width: 750px;
+}
+
+#botaocadastro {
     float: right;
-    padding: 10px 100px;
+    padding: 10px 60px;
 
 }
 
@@ -116,7 +116,7 @@ p {
     color: #666;
     font-size: 16px;
 }
-form{
+form {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
