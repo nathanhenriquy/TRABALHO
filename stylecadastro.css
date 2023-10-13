@@ -74,6 +74,12 @@ header li{
     background-color:  #007bff;
 }
 
+#botaologin {
+    float: right;
+    padding: 10px 100px;
+
+}
+
 body
 {
     background-color: rgb(139, 189, 255);
