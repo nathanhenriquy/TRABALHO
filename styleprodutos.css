@@ -14,11 +14,11 @@ body {
     font-family: 'Poppins', sans-serif;
     padding: 20px;
     grid-area: header;
-    background:  #341cb0;
+    background:  #c5bbb4;
 }
 
 .namepagina{
-    color: white;
+    color: #2e2826;
     margin: 0px;
     padding: 10px;
     text-align: center;
@@ -40,7 +40,7 @@ header li{
     display: inline-block;
     flex-grow: 1;
     font-weight: bold;
-    color: #000029;
+    color: #4a403d;
     padding: 10px;
     margin-right: 25px;
     font-size: 17px;
@@ -55,13 +55,13 @@ header li{
     padding: 10px;
     width: calc(100% - 204px);
     min-width: 200px;
-    border: 2px solid #ccc;
+    border: 2px solid #4a403d;
     border-radius: 6px;
 }
 
 .form button {
     font-family: 'Poppins', sans-serif; 
-    background-color: #11096c;
+    background-color: #a18a77;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -72,7 +72,7 @@ header li{
 }
 
 .form button:hover {
-    background-color:  #007bff;
+    background-color:  #9f7d60;
 }
 
 /*==== CABEÇALHO CORRETO DAQUI PARA CIMA ====*/
@@ -92,6 +92,7 @@ header li{
     background-color: #f2f2f2;
     padding: 50px;
     border-radius: 10px;
+    color: #2e2826;
 }
 
 .categories h2 {
@@ -131,7 +132,7 @@ header li{
 
 .item{    
     display: inline-block;
-    background-color: rgb(225, 237, 248);
+    background-color:#f3ede8;
     padding: 10px 2px;
     width: calc(33.33% - 46px);
     min-width: 200px;
@@ -147,7 +148,7 @@ header li{
 
 .item h3 {
     font-family: 'Poppins', sans-serif;
-    color: #000029;
+    color: #2e2826;
     font-size: 20px;
     margin: 10px 0;
 }
@@ -165,7 +166,7 @@ header li{
 /*==== FOOTER CORRETO DAQUI PARA BAIXO ====*/
 
 footer .direitos{
-    background-color: #ddd;
+    background-color: #a69a90;
     margin: 0px;
     padding: 10px;
     text-align: center;
@@ -173,8 +174,8 @@ footer .direitos{
 
 .footer-container {
     font-family: 'Poppins', sans-serif; 
-    background-color: #ddd;
-    color: #000029;
+    background-color: #a69a90;
+    color: #2e2826;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -201,5 +202,5 @@ footer .direitos{
 
 
 .social-icons a:hover {
-    color: #007bff; 
+    color: #ae723a; 
 }

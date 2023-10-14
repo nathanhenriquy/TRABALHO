@@ -1,16 +1,33 @@
-body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+body {
     margin: 0;
+    padding: 0;
+    height: 100%;
+
 }
 
-header{
+.header{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    grid-area: header;
+    background:  #c5bbb4;
+}
+
+.namepagina{
+    color: #2e2826;
     margin: 0px;
     padding: 10px;
-    background:  #341cb0 ;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 30px;   
+    
 }
 
-
-ul{
+header ul{
     align-items: center;
     margin: 0;
     display: flex;
@@ -19,49 +36,15 @@ ul{
 }
 
 
-li{
+header li{
     display: inline-block;
     flex-grow: 1;
     font-weight: bold;
-    color: #000029;
+    color: #4a403d;
     padding: 10px;
     margin-right: 25px;
     font-size: 17px;
 }
-
-.logo{
-
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-    max-width: 100%;
-    width: 800px; 
-    height: auto;
-    
-}
-
-@media (max-width: 833px) {
-    
-.none{
-    display: none;
-}
-        
-}
-
-@media (max-width: 833px) {
-    ul {
-        justify-content: center; 
-    }
-    
-    li.none {
-        display: none; 
-    }
-
-    li {
-        margin-right: 10px; 
-    }
-}
-
 
 .form {   
     margin-left: auto;
@@ -72,12 +55,13 @@ li{
     padding: 10px;
     width: calc(100% - 204px);
     min-width: 200px;
-    border: 2px solid #ccc;
+    border: 2px solid #4a403d;
     border-radius: 6px;
 }
 
 .form button {
-    background-color: #11096c;
+    font-family: 'Poppins', sans-serif; 
+    background-color: #a18a77;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -88,8 +72,10 @@ li{
 }
 
 .form button:hover {
-    background-color: rgb(43, 88, 201);
+    background-color:  #9f7d60;
 }
+
+/*==== CABEÇALHO CORRETO DAQUI PARA CIMA ====*/
 
 body{
     background-color: rgb(255, 255, 255);
@@ -104,13 +90,13 @@ main{
     text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
 } 
 
-h1{ 
+main h1{ 
     color:#000029;
     text-align: center; 
 
 } 
 h3{ 
-    color: #fff;
+    color: #2e2826;
     margin:0 auto;
     text-align: center;
 }
@@ -124,11 +110,11 @@ h3{
     border-radius: 17px; 
     border: 1px; 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background-color:#341cb0;
+    background-color:#e3dcd5;
     width: 550px; 
     height: 200px; 
     margin: 0 auto;  
-    color: #fff; 
+    color: #4a403d; 
     text-align: justify;
 
 } 
@@ -142,11 +128,11 @@ h3{
     border-radius: 17px; 
     border: 1px; 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background-color:#341cb0;
+    background-color:#e3dcd5;
     width: 550px; 
     height: 200px; 
     margin: 0 auto;  
-    color: #fff; 
+    color: #4a403d; 
     text-align: justify;
 } 
 #block3{ 
@@ -159,11 +145,11 @@ h3{
     border-radius: 17px; 
     border: 1px; 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background-color:#341cb0;
+    background-color:#e3dcd5;
     width: 550px; 
     height: 200px; 
     margin: 0 auto;  
-    color: #fff; 
+    color: #4a403d; 
     text-align: justify;
 }
 
@@ -178,29 +164,52 @@ h3{
     border-radius: 17px; 
     border: 1px; 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background-color:#341cb0;
+    background-color:#e3dcd5;
     width: 550px; 
     height: 200px; 
     margin: auto; 
-    color: #fff; 
+    color: #4a403d; 
     text-align: justify;
 }
-.block_footer{ 
-    box-align: center;
-    padding-top: 10px; 
-    padding-bottom: 10px;
-    padding-left: 50px; 
-    padding-right: 60px; 
-    padding-inline-start: 0%; 
-    border-radius: 17px; 
-    border: 1px; 
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background-color:#341cb0;
-    width: 300px; 
-    height: 50px; 
-    margin: 0 auto; 
-    color: #fff; 
-    text-align: center;  
-    display:inline;
-    justify-content: center;
+
+/*==== FOOTER CORRETO DAQUI PARA BAIXO ====*/
+
+footer .direitos{
+    background-color: #a69a90;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-container {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #a69a90;
+    color: #2e2826;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+
+
+.footer-column a {
+    text-decoration: none;
+    color: #000029;
+    
+}
+
+.social-icons a {
+    color: #000029;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+
+.social-icons a:hover {
+    color: #ae723a; 
 }
