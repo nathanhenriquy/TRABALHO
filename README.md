@@ -1,6 +1,4 @@
 # TRABALHO (StyleSports)
-Trabalho WebBásico.<br>
-Integrantes: Nathan Henrique, Paulo Alexandre, Thyago.<br>
 Tema: StyleSports (loja esportiva)<br>
 Paginas:<br>
 1 - Páginag Principal<br>
@@ -9,4 +7,10 @@ Paginas:<br>
 4 - Cadastro<br>
 5 - Sobre<br>
 6 - Adm<br>
+
+<p>Trabalho realizado para a discilplina de WebBásico da Universade Positivo curso de Ciência da Computação</p>
+<p>Integrandes:</p>
+Nathan Santos: https://github.com/nathanhenriquy <br>
+Paulo Alexandre: https://github.com/haliskipaulo <br>
+Thyago: https://github.com/thybiagio <br>
 
