@@ -2,9 +2,7 @@
 Trabalho WebBásico.<br>
 Integrantes: Nathan Henrique, Paulo Alexandre, Thyago.<br>
 Tema: StyleSports (loja esportiva)<br>
-Entrega dia 25/09<br>
-
-Paginas:
+Paginas:<br>
 1 - Páginag Principal
 2 - Produtos
 3 - Login
