@@ -1,8 +1,8 @@
 # TRABALHO
-Trabalho WebBásico.
-Integrantes: Nathan Henrique, Paulo Alexandre, Thyago.
-Tema: StyleSports (loja esportiva)
-Entrega dia 25/09
+Trabalho WebBásico.<br>
+Integrantes: Nathan Henrique, Paulo Alexandre, Thyago.<br>
+Tema: StyleSports (loja esportiva)<br>
+Entrega dia 25/09<br>
 
 Paginas:
 1 - Pg Principal
