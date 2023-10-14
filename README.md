@@ -9,8 +9,11 @@ Paginas:<br>
 6 - Adm<br>
 
 <p>Trabalho realizado para a discilplina de WebBásico da Universade Positivo curso de Ciência da Computação</p>
-Integrantes:
+Integrantes:<br>
 Nathan Santos: https://github.com/nathanhenriquy <br>
 Paulo Alexandre: https://github.com/haliskipaulo <br>
 Thyago: https://github.com/thybiagio <br>
+
+<img src="![image](https://github.com/nathanhenriquy/TRABALHO/assets/134638765/7759db13-6343-4d90-a386-89bb9b78ed0d)
+" />
 
