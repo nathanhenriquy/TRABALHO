@@ -14,5 +14,5 @@ Nathan Santos: https://github.com/nathanhenriquy <br>
 Paulo Alexandre: https://github.com/haliskipaulo <br>
 Thyago: https://github.com/thybiagio <br>
 
-<img src="C:\Users\natha\OneDrive\Documentos\Ciencia da Computação\2 semestre\web basico correto\TRABALHO\telaprincipal.png" />
+<img src="./telaprincipal.png" />
 
