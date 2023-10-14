@@ -87,7 +87,7 @@ header li{
     margin: 20px;
 }
 
-.categories {
+.categorias {
     flex: 1;
     background-color: #f2f2f2;
     padding: 50px;
@@ -95,18 +95,18 @@ header li{
     color: #2e2826;
 }
 
-.categories h2 {
+.categorias h2 {
     font-size: 24px;
     margin-bottom: 10px;
     
 }
 
-.categories ul {
+.categorias ul {
     list-style: none;
     padding: 0;
 }
 
-.categories li {
+.categorias li {
     margin: 5px;
     font-weight: bold;
     
