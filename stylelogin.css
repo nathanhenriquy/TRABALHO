@@ -78,7 +78,7 @@ header li{
 
 #botaoentrar {
     padding: 14px;
-    width: 750px;
+    width: 100%;
 }
 
 #botaocadastro {
@@ -206,8 +206,6 @@ footer .direitos{
     color: #ae723a; 
 }
 
-
-/*====== Responsivo ======*/
 @media (max-width: 981px) {
        
     header li {
@@ -223,24 +221,8 @@ footer .direitos{
     .main h2 {
         font-size: 24px;
     }
-    
-    .item h3 {
-        font-size: 18px;
-    }
-    .item p {
+    p {
         font-size: 14px;
-    }
-    .promocoesimg {
-        flex-direction: column;
-    }
-    .promocao-item img {
-        max-width: 100%;
-    }
-    .propaganda-grande{
-        display: none;
-    }
-    .propaganda-hori{
-        display: none;
     }
 }
 
@@ -258,15 +240,8 @@ footer .direitos{
         padding: 5px;
         width: 70px;
     }
-    
-    .item h3 {
-        font-size: 16px;
-    }
-    .item p {
-        font-size: 12px;
-    }
-    .promocoesimg {
-        margin: 10px 0;
+    p {
+        font-size: 14px;
     }
 }
 
@@ -283,17 +258,12 @@ footer .direitos{
     .form button {
         display: none;
     }
-    
-    .item h3 {
-        font-size: 16px;
-    }
-    .item p {
+
+    .footer-container{
         font-size: 12px;
     }
-    .promocoesimg {
-        margin: 10px 0;
-    }
-    .footer-container{
-        font-size: 10px;
+
+    p {
+        font-size: 14px;
     }
 }
