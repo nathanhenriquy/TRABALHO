@@ -38,75 +38,210 @@
         <style> 
             table{ 
                 width:100%; 
-                display: inline;
-
+                display: flex;
+                justify-content: center;
+                align-items: center;
             } 
             td,th{ 
-                border:1px solid black; 
+                border:1px solid rgb(95, 90, 90); 
                 padding: 8px
             }
         </style>                   
-        <main> 
-            <h3> Tabela de Cadastros</h3> 
-            <section> 
-                <table> 
+        <main>
+            <h3> Tabela de Cadastros</h3>
+            <section>
+                <table>
                     <tr>
-                        <th style="background-color:#341cb0; color: #ffff;"> Nome </th> 
-                        <td style="background-color:#7e6be0;color: #ffff;" > Antônio </td>
-                        <td style="background-color: #6955cc; color: #ffff;"> Roberta </td> 
-                        <td style="background-color:#7e6be0;color: #ffff;"> Lorena </td> 
-                        <td style="background-color: #6955cc; color: #ffff;"> Enzo </td>
-                        <td style="background-color:#7e6be0;color: #ffff;"> Eduardo </td> 
-                        <td style="background-color: #6955cc; color: #ffff;"> Carlos </td> 
-                        <td style="background-color:#7e6be0;color: #ffff;"> Pedro </td> 
-                        <td style="background-color: #6955cc; color: #ffff;"> Leia </td> 
-                        <td style="background-color:#7e6be0;color: #ffff;"> Luke </td> 
-                        <td style="background-color: #6955cc; color: #ffff;"> Manuela </td> 
-                    </tr> 
-                    <tr> 
-                        <th style="background-color:#341cb0; color: #ffff"> Email </th>
-                        <td style="background-color:#7e6be0;color: #ffff;"> antonio@gmail.com </td> 
-                        <td style="background-color: #6955cc; color: #ffff;"> roberta@gmail.com </td>
-                        <td style="background-color:#7e6be0;color: #ffff;"> lorena@gmail.com </td>
-                        <td style="background-color: #6955cc; color: #ffff;"> enzo@gmail.com </td>
-                        <td style="background-color:#7e6be0;color: #ffff;"> eduardo@gmail.com </td>
-                        <td style="background-color: #6955cc; color: #ffff;"> carlos@gmail.com </td>
-                        <td style="background-color:#7e6be0;color: #ffff;"> pedro@gmail.com </td>
-                        <td style="background-color: #6955cc; color: #ffff;"> leia@gmail.com </td>
-                        <td style="background-color:#7e6be0;color: #ffff;"> luke@gmail.com </td>
-                        <td style="background-color: #6955cc; color: #ffff;"> manuela@gmail.com </td>
-                    </tr> 
-                    <tr> 
-                        <th style="background-color: #341cb0; color: #ffff;"> Telefone </th> 
-                        <td style="background-color:#7e6be0;color: #ffff;"> (41) 99876-5432 </td>
-                        <td style="background-color: #6955cc; color: #ffff;"> (41) 98765-4321</td>
-                        <td style="background-color:#7e6be0;color: #ffff;"> (41) 97654-3210 </td>
-                        <td style="background-color: #6955cc; color: #ffff;"> (41) 96543-2109 </td> 
-                        <td style="background-color:#7e6be0;color: #ffff;"> (41) 95432-1098 </td> 
-                        <td style="background-color: #6955cc; color: #ffff;"> (41) 94321-0987 </td> 
-                        <td style="background-color:#7e6be0;color: #ffff;"> (41) 93210-9876 </td> 
-                        <td style="background-color: #6955cc; color: #ffff;"> (41) 92109-8765 </td> 
-                        <td style="background-color:#7e6be0;color: #ffff;"> (41) 91098-7654 </td>
-                        <td style="background-color: #6955cc; color: #ffff;"> (41) 99987-6543 </td>
-                    </tr> 
-                    <tr> 
-                        <th style="background-color: #341cb0; color: #ffff;"> Senha </th>
-                        <td style="background-color:#7e6be0;color: #ffff;"> P@ssw0rd123</td>  
-                        <td style="background-color: #6955cc; color: #ffff;"> Secr3tC0de! </td>
-                        <td style="background-color:#7e6be0;color: #ffff;"> 7h1$1s@P@ss </td>
-                        <td style="background-color: #6955cc; color: #ffff;"> R0ck&M0v3s </td>
-                        <td style="background-color:#7e6be0;color: #ffff;"> B3@utifulD@y </td>
-                        <td style="background-color: #6955cc; color: #ffff;"> 9C@tL0v3r$ </td> 
-                        <td style="background-color:#7e6be0;color: #ffff;"> $unsh1n3&Smil3 </td> 
-                        <td style="background-color: #6955cc; color: #ffff;"> W1nt3rW0nd3rl@nd </td> 
-                        <td style="background-color:#7e6be0;color: #ffff;"> Ch0c0l@t3Fudg3 </td>
-                        <td style="background-color: #6955cc; color: #ffff;"> G3n3ricP@ss </td>
+                        <th style="background-color:#4a403d; color: #ffff;"> Nome </th>
+                        <th style="background-color:#4a403d;color: #ffff;"> Email </th>
+                        <th style="background-color: #4a403d; color: #ffff;"> Telefone </th>
+                        <th style="background-color:#4a403d;color: #ffff;"> Senha </th>
                     </tr>
-                 </table>
-             </section>
-
-             <br><br><br><br><br>
-            </main> 
+                    <tr>
+                        <td style="background-color:#a8a3a0; color: #080808;"> Antônio </td>
+                        <td style="background-color: #ded7d2;color: #080808;"> antonio@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 99876-5432 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> P@ssw0rd123 </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Roberta </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> roberta@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 98765-4321 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> Secr3tC0de! </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0;color: #080808;"> Lorena </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> lorena@gmail.com </td>
+                        <td style="background-color:#a8a3a0;color: #080808;"> (41) 97654-3210 </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> 7h1$1s@P@ss </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Enzo </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> enzo@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 96543-2109 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> R0ck&M0v3s </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0;color: #080808;"> Eduardo </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> eduardo@gmail.com </td>
+                        <td style="background-color:#a8a3a0;color: #080808;"> (41) 95432-1098 </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> B3@utifulD@y </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Carlos </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> carlos@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 94321-0987 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> 9C@tL0v3r$ </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0;color: #080808;"> Pedro </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> pedro@gmail.com </td>
+                        <td style="background-color:#a8a3a0;color: #080808;"> (41) 93210-9876 </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> $unsh1n3&Smil3 </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Leia </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> leia@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 92109-8765 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> W1nt3rW0nd3rl@nd </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0;color: #080808;"> Luke </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> luke@gmail.com </td>
+                        <td style="background-color:#a8a3a0;color: #080808;"> (41) 91098-7654 </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> Ch0c0l@t3Fudg3 </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Manuela </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> manuela@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 99987-6543 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> G3n3ricP@ss </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0; color: #080808;"> Antônio </td>
+                        <td style="background-color: #ded7d2;color: #080808;"> antonio@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 99876-5432 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> P@ssw0rd123 </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Roberta </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> roberta@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 98765-4321 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> Secr3tC0de! </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0;color: #080808;"> Lorena </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> lorena@gmail.com </td>
+                        <td style="background-color:#a8a3a0;color: #080808;"> (41) 97654-3210 </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> 7h1$1s@P@ss </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Enzo </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> enzo@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 96543-2109 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> R0ck&M0v3s </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0;color: #080808;"> Eduardo </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> eduardo@gmail.com </td>
+                        <td style="background-color:#a8a3a0;color: #080808;"> (41) 95432-1098 </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> B3@utifulD@y </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Carlos </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> carlos@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 94321-0987 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> 9C@tL0v3r$ </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0;color: #080808;"> Pedro </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> pedro@gmail.com </td>
+                        <td style="background-color:#a8a3a0;color: #080808;"> (41) 93210-9876 </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> $unsh1n3&Smil3 </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Leia </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> leia@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 92109-8765 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> W1nt3rW0nd3rl@nd </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0;color: #080808;"> Luke </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> luke@gmail.com </td>
+                        <td style="background-color:#a8a3a0;color: #080808;"> (41) 91098-7654 </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> Ch0c0l@t3Fudg3 </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Manuela </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> manuela@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 99987-6543 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> G3n3ricP@ss </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0; color: #080808;"> Antônio </td>
+                        <td style="background-color: #ded7d2;color: #080808;"> antonio@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 99876-5432 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> P@ssw0rd123 </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Roberta </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> roberta@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 98765-4321 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> Secr3tC0de! </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0;color: #080808;"> Lorena </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> lorena@gmail.com </td>
+                        <td style="background-color:#a8a3a0;color: #080808;"> (41) 97654-3210 </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> 7h1$1s@P@ss </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Enzo </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> enzo@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 96543-2109 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> R0ck&M0v3s </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0;color: #080808;"> Eduardo </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> eduardo@gmail.com </td>
+                        <td style="background-color:#a8a3a0;color: #080808;"> (41) 95432-1098 </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> B3@utifulD@y </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Carlos </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> carlos@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 94321-0987 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> 9C@tL0v3r$ </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0;color: #080808;"> Pedro </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> pedro@gmail.com </td>
+                        <td style="background-color:#a8a3a0;color: #080808;"> (41) 93210-9876 </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> $unsh1n3&Smil3 </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Leia </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> leia@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 92109-8765 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> W1nt3rW0nd3rl@nd </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#a8a3a0;color: #080808;"> Luke </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> luke@gmail.com </td>
+                        <td style="background-color:#a8a3a0;color: #080808;"> (41) 91098-7654 </td>
+                        <td style="background-color: #ded7d2; color: #080808;"> Ch0c0l@t3Fudg3 </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #a8a3a0; color: #080808;"> Manuela </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> manuela@gmail.com </td>
+                        <td style="background-color: #a8a3a0; color: #080808;"> (41) 99987-6543 </td>
+                        <td style="background-color:#ded7d2;color: #080808;"> G3n3ricP@ss </td>
+                    </tr>
+                </table>
+            </section>
+            <br><br><br><br><br>
+        </main>
+        
             <footer>
                 <div class="footer-container">
                     <div class="footer-column">

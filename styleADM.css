@@ -78,15 +78,10 @@ header li{
 /*==== CABEÇALHO CORRETO DAQUI PARA CIMA ====*/
 
 
-#table{ 
-    margin: 0 auto; 
-    border: 0; 
-    align-items: center;
-    width:auto;
-}
-
 main h3{ 
     text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    
 }
 
 
