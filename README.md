@@ -1,5 +1,5 @@
-# TRABALHO (StyleSports)
-Tema: StyleSports (loja esportiva)<br>
+# TRABALHO (SportStyle)
+Tema: SportStyle (loja esportiva)<br>
 Paginas:<br>
 1 - Páginag Principal<br>
 2 - Produtos<br>
