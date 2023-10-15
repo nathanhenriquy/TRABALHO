@@ -76,8 +76,6 @@ header li{
     background-color:  #9f7d60;
 }
 
-/*==== CABEÇALHO CORRETO DAQUI PARA CIMA ====*/
-
 #botaoentrar {
     padding: 14px;
     width: 750px;
@@ -117,7 +115,7 @@ h2 {
 }
 
 p {
-    color: #666;
+    color: #000000;
     font-size: 16px;
 }
 form {
@@ -166,4 +164,136 @@ button:hover {
 
 button[type="reset"]:hover{            
     background-color: #ac7727;
+}
+
+footer .direitos{
+    background-color: #a69a90;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-container {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #a69a90;
+    color: #2e2826;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+
+
+.footer-column a {
+    text-decoration: none;
+    color: #000029;
+    
+}
+
+.social-icons a {
+    color: #000029;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+
+.social-icons a:hover {
+    color: #ae723a; 
+}
+
+
+/*====== Responsivo ======*/
+@media (max-width: 981px) {
+       
+    header li {
+        margin: 5px;
+        font-size: 16px;
+    }
+    .form input {
+        width: 60%;
+    }
+    .form button {
+        width: 80px;
+    }
+    .main h2 {
+        font-size: 24px;
+    }
+    
+    .item h3 {
+        font-size: 18px;
+    }
+    .item p {
+        font-size: 14px;
+    }
+    .promocoesimg {
+        flex-direction: column;
+    }
+    .promocao-item img {
+        max-width: 100%;
+    }
+    .propaganda-grande{
+        display: none;
+    }
+    .propaganda-hori{
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .namepagina {
+        font-size: 20px;
+    }
+    .header li {
+        font-size: 14px;
+    }
+    .form input {
+        padding: 5px;
+    }
+    .form button {
+        padding: 5px;
+        width: 70px;
+    }
+    
+    .item h3 {
+        font-size: 16px;
+    }
+    .item p {
+        font-size: 12px;
+    }
+    .promocoesimg {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 660px) {
+    .namepagina {
+        font-size: 20px;
+    }
+    .header li {
+        font-size: 14px;
+    }
+    .form input {
+        display: none;
+    }
+    .form button {
+        display: none;
+    }
+    
+    .item h3 {
+        font-size: 16px;
+    }
+    .item p {
+        font-size: 12px;
+    }
+    .promocoesimg {
+        margin: 10px 0;
+    }
+    .footer-container{
+        font-size: 10px;
+    }
 }
