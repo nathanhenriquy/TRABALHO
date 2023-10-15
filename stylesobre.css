@@ -213,3 +213,71 @@ footer .direitos{
 .social-icons a:hover {
     color: #ae723a; 
 }
+
+/*====== Responsivo ======*/
+@media (max-width: 981px) {
+       
+    header li {
+        margin: 5px;
+        font-size: 16px;
+    }
+    .form input {
+        width: 60%;
+    }
+    .form button {
+        width: 80px;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .namepagina {
+        font-size: 20px;
+    }
+    .header li {
+        font-size: 14px;
+    }
+    .form input {
+        padding: 5px;
+    }
+    .form button {
+        padding: 5px;
+        width: 50px;
+    }
+    
+}
+
+@media (max-width: 838px) {
+   
+    .form input {
+        padding: 5px;
+    }
+    .form button {
+        padding: 5px;
+        width: 50px;
+    }
+    
+}
+
+@media (max-width: 798px) {
+    .namepagina {
+        font-size: 20px;
+    }
+    .header li {
+        font-size: 14px;
+    }
+    .form input {
+        display: none;
+    }
+    .form button {
+        display: none;
+    }
+    
+    
+    .footer-container{
+        font-size: 10px;
+    }
+}
+
+
+
