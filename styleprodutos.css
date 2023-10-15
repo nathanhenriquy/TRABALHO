@@ -81,14 +81,14 @@ header li{
 
 /* ====== CATEGORIAS E PRODUTOS====== */
 .main {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 20px;
     margin: 20px;
+    font-family: 'Poppins', sans-serif; 
 }
 
 .categorias {
-    flex: 1;
     background-color: #f2f2f2;
     padding: 50px;
     border-radius: 10px;
@@ -97,8 +97,7 @@ header li{
 
 .categorias h2 {
     font-size: 24px;
-    margin-bottom: 10px;
-    
+      
 }
 
 .categorias ul {
@@ -112,17 +111,10 @@ header li{
     
 }
 
-.main{
-    grid-area: main;
-    background-color: #ffffff;
-    font-family: 'Poppins', sans-serif;
- 
-}
-
-.main h2{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .produtos{
@@ -157,6 +149,21 @@ header li{
     color: #000029;
     font-size: 16px;
     margin: 5px 0;
+}
+
+#botaocomprar{
+    font-family: 'Poppins', sans-serif; 
+    background-color: #a18a77;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    padding: 10px 10px;   
+    cursor: pointer;
+}
+
+#botaocomprar:hover {
+    background-color:  #a07652;
 }
 
 
